@@ -18,4 +18,13 @@
 	git commit -m "Commit del estudiante X" --> prepara los cambios y le adiciona un mensaje
 	git push -u origin main --> sube los cambios al repositorio de gitHub
 	
+
+	Crear ramas:
+	git branch Prueba --> crea la rama
+	git checkout -b Ejemplo --> crea la rama y nos ubica en ella
+
+	para cambiar de ramas:
+	git checkout nombreRama
+	
+
 			
