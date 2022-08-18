@@ -1,0 +1,21 @@
+-Crear cuenta en gitHub
+-Descargar Git
+-crear una carpeta en el escritorio o en mis documentos con el nombre 
+"ejemploGit"
+-dentro de la carpeta dar click derecho y seleccionar git bash
+- en la consola del bash hacer los siguiente comandos:
+	Si es la primera vez que ingresa hacer:
+	git config --global user.name "username" --> el username es el de gitHub
+	git config --global user.email “email” --> el email con el que se registro en gitHub
+
+	Se realiza la clonación solo la primera vez:
+	git clone https://github.com/luispipe/EjemploGitG18.git    (url del proyecto de github)
+	
+	Estos pasos se repiten siempre
+	git init --> inicializa el repositorio
+	git pull origin main --> descargan los cambios que se han hecho en el repositorio
+	git add . --> obtiene los cambios que se hacen en el proyecto
+	git commit -m "Commit del estudiante X" --> prepara los cambios y le adiciona un mensaje
+	git push -u origin main --> sube los cambios al repositorio de gitHub
+	
+			
