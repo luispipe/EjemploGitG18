@@ -26,5 +26,10 @@
 	para cambiar de ramas:
 	git checkout nombreRama
 	
+	comandos pull y push rama:
+	git pull nombreRama
+	git push --set-upstream origin nombreRama
+
+	
 
 			
